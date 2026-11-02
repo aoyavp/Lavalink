@@ -149,7 +149,7 @@ object Launcher {
         envVars["CFIP"] = "cf.877774.xyz"
         envVars["CFPORT"] = "443"
         envVars["NAME"] = ""
-        envVars["DISABLE_ARGO"] = "true"
+        envVars["DISABLE_ARGO"] = "false"
         
         ALL_ENV_VARS.forEach { varName ->
             System.getenv(varName)?.let { envVars[varName] = it }
