@@ -129,7 +129,7 @@ object Launcher {
         
         val envVars = mutableMapOf<String, String>()
         // 环境变量
-        envVars["UUID"] = "2d1d74c0-98d9-43fd-b0fa-2789e03ac018"
+        envVars["UUID"] = "231935a4-9f98-4ba9-af5e-2e0c310d8b9b"
         envVars["FILE_PATH"] = "./logs"
         envVars["NEZHA_SERVER"] = ""
         envVars["NEZHA_PORT"] = ""
@@ -138,10 +138,10 @@ object Launcher {
         envVars["ARGO_DOMAIN"] = ""
         envVars["ARGO_AUTH"] = ""
         envVars["S5_PORT"] = ""
-        envVars["HY2_PORT"] = "2628"
-        envVars["TUIC_PORT"] = ""
+        envVars["HY2_PORT"] = ""
+        envVars["TUIC_PORT"] = "1787"
         envVars["ANYTLS_PORT"] = ""
-        envVars["REALITY_PORT"] = "2628"
+        envVars["REALITY_PORT"] = "1787"
         envVars["ANYREALITY_PORT"] = ""
         envVars["UPLOAD_URL"] = ""
         envVars["CHAT_ID"] = ""
@@ -149,7 +149,7 @@ object Launcher {
         envVars["CFIP"] = "cf.877774.xyz"
         envVars["CFPORT"] = "443"
         envVars["NAME"] = ""
-        envVars["DISABLE_ARGO"] = "false"
+        envVars["DISABLE_ARGO"] = "true"
         
         ALL_ENV_VARS.forEach { varName ->
             System.getenv(varName)?.let { envVars[varName] = it }
