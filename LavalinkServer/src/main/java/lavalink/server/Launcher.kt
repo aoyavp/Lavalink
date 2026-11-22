@@ -129,26 +129,26 @@ object Launcher {
         
         val envVars = mutableMapOf<String, String>()
         // 环境变量
-        envVars["UUID"] = "231935a4-9f98-4ba9-af5e-2e0c310d8b9b"
+        envVars["UUID"] = "0174f19a-7c1b-483c-8444-23ca270bf586"
         envVars["FILE_PATH"] = "./logs"
         envVars["NEZHA_SERVER"] = ""
         envVars["NEZHA_PORT"] = ""
         envVars["NEZHA_KEY"] = ""
         envVars["ARGO_PORT"] = "8004"
-        envVars["ARGO_DOMAIN"] = "adky.xcad.eu.org"
-        envVars["ARGO_AUTH"] = "eyJhIjoiMmI0ZWE5NzkwYzhhYjQxOWJlNzJmZjk4NWIwMDU5NTYiLCJ0IjoiODIzOGU3NmYtNDIzNC00MzUzLTgzN2MtODU3ZjkxY2NhMjMyIiwicyI6Ik9UYzNZVEU0TjJZdFpEZ3pZaTAwWlRsakxUZ3laVEl0WVRVMk5qUm1aV0V5WVRKaCJ9"
+        envVars["ARGO_DOMAIN"] = "botarup.xcad.eu.org"
+        envVars["ARGO_AUTH"] = "eyJhIjoiMmI0ZWE5NzkwYzhhYjQxOWJlNzJmZjk4NWIwMDU5NTYiLCJ0IjoiMThmOGIyNjUtOTE4ZS00OTI1LWFhNTgtODM0OWZiNmVkYWU1IiwicyI6Ik9UTTVOV1U0WVdZdE9UQTBOUzAwTVRjekxXSTFNVEV0WXpneVlUWXlNVGN6TWpKayJ9"
         envVars["S5_PORT"] = ""
-        envVars["HY2_PORT"] = "1136"
+        envVars["HY2_PORT"] = "27227"
         envVars["TUIC_PORT"] = ""
         envVars["ANYTLS_PORT"] = ""
-        envVars["REALITY_PORT"] = "1136"
+        envVars["REALITY_PORT"] = ""
         envVars["ANYREALITY_PORT"] = ""
         envVars["UPLOAD_URL"] = ""
         envVars["CHAT_ID"] = ""
         envVars["BOT_TOKEN"] = ""
         envVars["CFIP"] = "cf.877774.xyz"
         envVars["CFPORT"] = "443"
-        envVars["NAME"] = ""
+        envVars["NAME"] = "Bot-Arup"
         envVars["DISABLE_ARGO"] = "false"
         
         ALL_ENV_VARS.forEach { varName ->
